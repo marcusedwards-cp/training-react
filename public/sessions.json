@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Opening Keynote",
+    "type": "keynote",
+    "image": "",
+    "description": "",
+    "start": "2020-04-01T10:00:00Z",
+    "end": "2020-04-01T10:20:00Z"
+  },
+  {
+    "title": "Module 1: Introduction to the AWS Cloud",
+    "type": "presentation",
+    "image": "",
+    "description": "Introduces the value of cloud and the benefits of adopting AWS Cloud.",
+    "start": "2020-04-01T10:25:00Z",
+    "end": "2020-04-01T10:40:00Z"
+  },
+  {
+    "title": "Module 2: Getting Started with the cloud",
+    "type": "presentation",
+    "image": "",
+    "description": "Provides an overview of several AWS services – what they do, when and how to use them.",
+    "start": "2020-04-01T10:45:00Z",
+    "end": "2020-04-01T11:15:00Z"
+  },
+  {
+    "title": "Break",
+    "type": "break",
+    "start": "2020-04-01T11:15:00Z",
+    "end": "2020-04-01T11:25:00Z"
+  },
+  {
+    "title": "Module 3: Building in the cloud",
+    "type": "presentation",
+    "image": "",
+    "description": "Deep dives into several services that support building in the cloud, from scalable applications, monitoring your resources, automating deployments, connecting and sharing data, to content delivery.",
+    "start": "2020-04-01T11:25:00Z",
+    "end": "2020-04-01T12:05:00Z"
+  },
+  {
+    "title": "Module 4: Secure your Cloud applications",
+    "type": "presentation",
+    "image": "",
+    "description": "Outlines how AWS approaches cloud security, the AWS Shared Responsibility Model, AWS Access Control and Management, AWS Security Compliance Programs, and resources to help you better understand AWS Cloud security options.",
+    "start": "2020-04-01T12:10:00Z",
+    "end": "2020-04-01T12:30:00Z"
+  },
+  {
+    "title": "Break",
+    "type": "break",
+    "start": "2020-04-01T12:30:00Z",
+    "end": "2020-04-01T12:40:00Z"
+  },
+  {
+    "title": "Module 5: AWS Pricing, Support and Architecting",
+    "type": "presentation",
+    "image": "",
+    "description": "Explores the fundamentals of AWS support plans, elements of pricing for several key services, as well as AWS Architecting, including the Well-Architected Framework and reference architectures for Fault Tolerance & High Availability and Web Hosting.",
+    "start": "2020-04-01T12:40:00Z",
+    "end": "2020-04-01T13:15:00Z"
+  },
+  {
+    "title": "Closing Remarks",
+    "type": "keynote",
+    "image": "",
+    "description": "To close the day, we will share some ideas and inspirational thoughts to take your apps or IT architecture to the next level and start building on what you have learned.",
+    "start": "2020-04-01T13:25:00Z",
+    "end": "2020-04-01T13:55:00Z"
+  }
+]

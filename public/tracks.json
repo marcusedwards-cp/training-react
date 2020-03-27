@@ -1,0 +1,4 @@
+[
+  { "title": "Conference", "sessions": "sessions.json" },
+  { "title": "Ask an Expert", "sessions": "sessions-ask_an_expert.json" }
+]

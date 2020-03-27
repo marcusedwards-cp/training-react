@@ -1,0 +1,89 @@
+{
+  "title": "AWSome Day Online Conference",
+  "tracks": [
+    {
+      "title": "Main",
+      "schedule": [
+        {
+          "date": "2020-03-19",
+          "sessions": [
+            {
+              "title": "Opening Keynote",
+              "type": "keynote",
+              "image": "",
+              "description": "",
+              "start": "1000",
+              "end": "1020"
+            },
+            {
+              "title": "Module 1: Introduction to the AWS Cloud",
+              "type": "presentation",
+              "image": "",
+              "description": "Introduces the value of cloud and the benefits of adopting AWS Cloud.",
+              "start": "1025",
+              "end": "1040"
+            },
+            {
+              "title": "Module 2: Getting Started with the cloud",
+              "type": "presentation",
+              "image": "",
+              "description": "Provides an overview of several AWS services – what they do, when and how to use them.",
+              "start": "1045",
+              "end": "1115"
+            },
+            {
+              "title": "Module 3: Building in the cloud",
+              "type": "presentation",
+              "image": "",
+              "description": "Deep dives into several services that support building in the cloud, from scalable applications, monitoring your resources, automating deployments, connecting and sharing data, to content delivery.",
+              "start": "1125",
+              "end": "1205"
+            },
+            {
+              "title": "Module 4: Secure your Cloud applications",
+              "type": "presentation",
+              "image": "",
+              "description": "Outlines how AWS approaches cloud security, the AWS Shared Responsibility Model, AWS Access Control and Management, AWS Security Compliance Programs, and resources to help you better understand AWS Cloud security options.",
+              "start": "1210",
+              "end": "1230"
+            },
+            {
+              "title": "Module 5: AWS Pricing, Support and Architecting",
+              "type": "presentation",
+              "image": "",
+              "description": "Explores the fundamentals of AWS support plans, elements of pricing for several key services, as well as AWS Architecting, including the Well-Architected Framework and reference architectures for Fault Tolerance & High Availability and Web Hosting.",
+              "start": "1240",
+              "end": "1315"
+            },
+            {
+              "title": "Closing Remarks",
+              "type": "presentation",
+              "image": "",
+              "description": "To close the day, we will share some ideas and inspirational thoughts to take your apps or IT architecture to the next level and start building on what you have learned.",
+              "start": "1325",
+              "end": "1355"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ask The Experts",
+      "schedule": [
+        {
+          "date": "2020-03-19",
+          "sessions": [
+            {
+              "title": "Ask The Experts",
+              "type": "q-and-a",
+              "image": "",
+              "description": "Open throughout the event.",
+              "start": "1000",
+              "end": "1400"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
