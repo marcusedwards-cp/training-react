@@ -1,37 +1,38 @@
 import React from "react";
-
+import {ServiceContext} from "../services/ContentService.ts";
 import ReactDOM, { render } from "react-dom";
 
 export class HeroComponent extends React.Component {
+  static contextType = ServiceContext;
   state = {
     loaded: false,
-    data: {}
+    alert: {}
   };
   componentDidMount() {
-    this.setState({
-      loaded: true,
-      data : {
-        "title": "Announcement",
-        "body": "Early bird tickets will only be available until 21 March 2020.",
-        "cta_url": "#",
-        "cta_text": "Learn more"
-      }
-    })
+    let service = this.context;
+    service
+    .alert()
+    .then(json => {
+      this.setState({
+        loaded: true,
+        alert : json
+      });
+    });
   }
   render() {
     if (this.state.loaded) {
       return (
         <div className="container-fluid">
           <div className="jumbotron">
-            <h2>{this.state.data.title}</h2>
-            <p>{this.state.data.body}</p>
-            {this.state.data.cta_url ? (
+            <h2>{this.state.alert.title}</h2>
+            <p>{this.state.alert.body}</p>
+            {this.state.alert.cta_url ? (
               <p>
                 <a
                   className="btn btn-primary btn-large"
-                  href={this.state.data.cta_url}
+                  href={this.state.alert.cta_url}
                 >
-                  {this.state.data.cta_text}
+                  {this.state.alert.cta_text}
                 </a>
               </p>
             ) : null}
