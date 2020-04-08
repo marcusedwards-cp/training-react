@@ -16,11 +16,11 @@ export class ResourceContentService {
         };        
     }
     async alert() {
-        const response = await fetch(this.baseUrl + "/alert.json", this.requestParams);
+        const response = await fetch(`${this.baseUrl}/alert.json`, this.requestParams);
         return await response.json();
     }
-    async sessions(id:string) {
-        const response = await fetch(this.baseUrl + `/${id ? id : 'sessions'}.json`)
+    async tracks() {
+        const response = await fetch(`${this.baseUrl}/tracks.json`, this.requestParams);
         return await response.json();
     }
 }

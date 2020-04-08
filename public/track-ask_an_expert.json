@@ -1,0 +1,14 @@
+{
+  "title": "Ask an expert",
+  "sessions": 
+  [
+    {
+      "title": "Ask an Expert",
+      "type": "q-and-a",
+      "image": "",
+      "description": "A range of experts will be available for you to ask questions of in a one-on-one setting.",
+      "start": "2020-04-01T10:00:00Z",
+      "end": "2020-04-01T14:00:00Z"
+    }
+  ]
+}
