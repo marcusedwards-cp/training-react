@@ -8,19 +8,22 @@ export class ResourceContentService {
         this.baseUrl = baseUrl
         this.requestParams = {
             method: 'GET',
-            credentials: 'same-origin',
             headers: {
-                'Content-Type': 'application/json'
+                'Accept': 'application/json'
             },
             referrerPolicy: 'no-referrer'
         };        
     }
     async alert() {
-        const response = await fetch(`${this.baseUrl}/alert.json`, this.requestParams);
+        const request = `${this.baseUrl}/alert.json`;
+        console.log(`ContentService#alert: url=${request}`);
+        const response = await fetch(request, this.requestParams);
         return await response.json();
     }
     async tracks() {
-        const response = await fetch(`${this.baseUrl}/tracks.json`, this.requestParams);
+        const request = `${this.baseUrl}/tracks.json`;
+        console.log(`ContentService#tracks: url=${request}`);        
+        const response = await fetch(request, this.requestParams);
         return await response.json();
     }
 }

@@ -24,7 +24,7 @@ class Tracks extends React.Component {
   render() {
     let tracks = <div>Loading...</div>;
     if (this.state.loaded) {
-      tracks = this.state.tracks.map((t, i) => (<div className="col-md-6"><Track data={t}/></div>));
+      tracks = this.state.tracks.map((t, i) => (<div className="col-md-6" key={t.id}><Track data={t}/></div>));
     }
     return (
       <div className="tracks container">

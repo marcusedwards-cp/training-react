@@ -9,7 +9,7 @@ const sessionCard = props => {
   });
   let classes = classnames("session", "session--" + session.type, "card");
   return (
-    <div className={classes} s>
+    <div className={classes}>
       {session.img ? (
         <img className="card-img-top" src="..." alt="..." />
       ) : null}
