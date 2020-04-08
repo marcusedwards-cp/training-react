@@ -5,7 +5,7 @@ import {ServiceContext, ResourceContentService} from "./services/ContentService.
 
 import "./styles.css";
 
-const service = new ResourceContentService("");
+const service = new ResourceContentService("http://stagecpuk.crownpeak.com/spa-training");
 
 class App extends React.Component {
   render() {
