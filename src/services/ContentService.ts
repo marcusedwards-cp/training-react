@@ -1,7 +1,11 @@
 // ts-check
 import React from "react";
 
-export class ResourceContentService {
+export interface ContentService {
+    alert() : Promise<object | null>;
+    tracks() : Promise<object[]>;
+}
+export class StaticResourceService implements ContentService {
     baseUrl:string = "";
     requestParams = {};
     constructor(baseUrl: string) {
@@ -28,4 +32,4 @@ export class ResourceContentService {
     }
 }
 
-export const ServiceContext = React.createContext(new ResourceContentService(""));
+export const ServiceContext = React.createContext(new StaticResourceService(""));
